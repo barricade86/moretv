@@ -4,7 +4,7 @@
  
 Для работы приложения через консольный интерфейс, наберите команду:
 ```
-path_to_jsonphp bin/console app:draw-tree < /home/iks-rotarran/tests/some.json
+php bin/console app:draw-tree < /path_to_your_json/some.json
 ```
 Для работы через Web-интерфейс
 * Сконфигурируйте свой Web-сервер, в соответствии с документацией
