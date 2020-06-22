@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    JSON Tree Builder
+{% endblock %}
+{% block body %}
+     {{ form_start(jsonForm) }}
+     {{ form_row(jsonForm.jsonFile, {'label': 'JSON'}) }}
+     {{ form_end(jsonForm) }}
+     {% if tree is defined %}
+         {{ tree|raw }}
+     {% endif %}
+{% endblock %}
