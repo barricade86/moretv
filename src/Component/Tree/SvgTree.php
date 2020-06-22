@@ -25,7 +25,7 @@ class SvgTree implements Tree
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function create(): string
     {
